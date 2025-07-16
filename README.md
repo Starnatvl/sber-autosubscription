@@ -34,6 +34,7 @@ pip install -r requirements.txt
 
 # Запуск Jupyter
 jupyter notebook
+```
 
 📅 План работы
 16 июля: Анализ данных (@StrikNa, @olga_vlasova_n)

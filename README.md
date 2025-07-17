@@ -67,7 +67,7 @@ jupyter notebook
    import gdown
    import pandas as pd
    
-   url_sessions = "https://drive.google.com/uc?export=download&amp;id=1E-OJ1E_ZliOldsRZgJzL844IV7IlCOqW"
+   url_sessions = "https://drive.google.com/uc?export=download&id=1E-OJ1E_ZliOldsRZgJzL844IV7IlCOqW"
    output_sessions = "ga_sessions.csv"
    gdown.download(url_sessions, output_sessions, quiet=False)
 
@@ -85,7 +85,7 @@ jupyter notebook
    import gdown
    import pandas as pd
 
-   url_hits = "https://drive.google.com/uc?export=download&amp;id=1y_014uhvDmD55ZlQ_hC7ptsP9jFecyRd"
+   url_hits = "https://drive.google.com/uc?export=download&id=1y_014uhvDmD55ZlQ_hC7ptsP9jFecyRd"
    output_hits = "ga_hits.csv"
    gdown.download(url_hits, output_hits, quiet=False)
 

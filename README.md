@@ -51,4 +51,44 @@ jupyter notebook
 - Подготовить аналитический отчет
 - Получить инсайты для улучшения UX сайта
 
+## 📁 Доступ к данным
+
+В этом проекте используются два датасета, которые доступны по следующим ссылкам:
+
+1. **Датасет:** `ga_sessions.csv`  
+   - **Описание:** Данные о сессиях пользователей  
+   - **Тип:** CSV  
+   - **Размер:** 370,1 МБ  
+   - **Ссылка для скачивания:**  
+   [Скачать с Google Drive](https://drive.google.com/uc?export=download&amp;id=1E-OJ1E_ZliOldsRZgJzL844IV7IlCOqW)  
+
+   Для загрузки в Python используйте:
+   ```python
+   import gdown
+   import pandas as pd
+   
+   url_sessions = "https://drive.google.com/uc?export=download&amp;id=1E-OJ1E_ZliOldsRZgJzL844IV7IlCOqW"
+   output_sessions = "ga_sessions.csv"
+   gdown.download(url_sessions, output_sessions, quiet=False)
+
+   df_sessions = pd.read_csv(output_sessions)
+
+2. **Датасет:** `ga_hits.csv`  
+   - **Описание:** Данные о событиях пользователей  
+   - **Тип:** CSV  
+   - **Размер:** 3,97 ГБ  
+   - **Ссылка для скачивания:**  
+   [Скачать с Google Drive](https://drive.google.com/uc?export=download&amp;id=1y_014uhvDmD55ZlQ_hC7ptsP9jFecyRd)  
+
+   Для загрузки в Python используйте:
+   ```python
+   import gdown
+   import pandas as pd
+
+   url_hits = "https://drive.google.com/uc?export=download&amp;id=1y_014uhvDmD55ZlQ_hC7ptsP9jFecyRd"
+   output_hits = "ga_hits.csv"
+   gdown.download(url_hits, output_hits, quiet=False)
+
+   df_hits = pd.read_csv(output_hits)
+
 Проект в рамках магистратуры по Data Science

@@ -60,9 +60,10 @@ source venv/bin/activate  # Linux/Mac
 
 # Установка зависимостей
 pip install -r requirements.txt
+```
 
 ### 2. Загрузка данных
-
+```bash
 import gdown
 import pandas as pd
 
@@ -73,14 +74,16 @@ gdown.download(url_sessions, "data/raw/ga_sessions.csv", quiet=False)
 # Загрузка ga_hits.csv (3.97GB)
 url_hits = "https://drive.google.com/uc?export=download&amp;id=1y_014uhvDmD55ZlQ_hC7ptsP9jFecyRd"
 gdown.download(url_hits, "data/raw/ga_hits.csv", quiet=False)
+```
 
 ### 3. Запуск анализа
-
+```bash
 # Запуск Jupyter для анализа
 jupyter notebook notebooks/analysis_report.ipynb
 
 # Запуск ML разработки
 jupyter notebook notebooks/ML_model_Miuling_Ilya.ipynb
+```
 
 ### 4. Запуск API
 

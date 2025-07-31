@@ -301,9 +301,9 @@ jupyter>=1.0.0
 ## 📞 Контакты и поддержка
 
 ### Команда проекта
-- **Вопросы по EDA:** [@natvls](https://github.com/Starnatvl)
-- **Вопросы по ML:** [@iliamiuling](https://github.com/iliamiuling)  
-- **Вопросы по API:** [@govzol](https://github.com/govzol)
+- **Вопросы по EDA:** [@Starnatvl](https://github.com/Starnatvl)
+- **Вопросы по ML:** [@IluxaXP](https://github.com/IluxaXP)  
+- **Вопросы по API:** [@kirill57396](https://github.com/kirill57396)
 - **Техническая поддержка:** Создайте [Issue](https://github.com/Starnatvl/sber-autosubscription/issues)
 
 ### Академический контекст

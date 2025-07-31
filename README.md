@@ -29,19 +29,15 @@ ML проект по предсказанию конверсии пользов�
 
 ```
 sber-autosubscription/
+├── 📂 api/                          # FastAPI приложение
+│   └── complete_api.py               # 🚀 REST API для модели (5KB)
+├── 📂 docs/                         # Документация и презентации
+│   └── presentation.pdf              # 📋 Итоговая презентация (2.5MB)
+├── 📂 models/                       # Обученные модели
+│   └── model.joblib                  # 💾 XGBoost модель (5.3MB)
 ├── 📂 notebooks/                    # Jupyter notebooks с анализом
 │   ├── analysis_report.ipynb        # 📈 Основной EDA отчет (2.3MB)
 │   └── ML_model_Miuling_Ilya.ipynb  # 🤖 ML разработка и модели (298KB)
-├── 📂 api/                          # FastAPI приложение
-│   └── complete_api.py               # 🚀 REST API для модели (5KB)
-├── 📂 models/                       # Обученные модели
-│   └── model.joblib                  # 💾 XGBoost модель (5.3MB)
-├── 📂 data/                         # Данные проекта
-│   ├── processed/
-│   │   └── df_merged_clean.pkl       # 🗃️ Очищенные данные (935MB)
-│   └── raw/                         # Исходные данные (по ссылкам)
-├── 📂 docs/                         # Документация и презентации
-│   └── presentation.pdf              # 📋 Итоговая презентация (2.5MB)
 ├── 📄 requirements.txt               # Python зависимости
 └── 📖 README.md                     # Этот файл
 ```

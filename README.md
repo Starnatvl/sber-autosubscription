@@ -75,6 +75,17 @@ gdown.download(url_sessions, "data/raw/ga_sessions.csv", quiet=False)
 url_hits = "https://drive.google.com/uc?export=download&amp;id=1y_014uhvDmD55ZlQ_hC7ptsP9jFecyRd"
 gdown.download(url_hits, "data/raw/ga_hits.csv", quiet=False)
 ```
+## 📁 Получение больших файлов данных
+
+Из-за ограничений GitHub некоторые большие файлы не включены в репозиторий:
+
+- `data/processed/df_merged_clean.pkl` (935MB) - обработанные данные
+
+### Варианты получения:
+1. **Скачать исходные данные и обработать:**
+```python
+   # Запустите notebooks/analysis_report.ipynb
+   # Файл будет создан автоматически
 
 ### 3. Запуск анализа
 ```bash
